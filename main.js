@@ -1,13 +1,13 @@
 let sentence1 = 'Uwielbiam JavaScript';
 let sentence2 = 'Jestem świetnym programistą';
 
-function string() {
-    if (sentence1.length > sentence2.length) {
-        result = sentence1;
+function string(x, y) {
+    if (x.length > y.length) {
+        result = x;
     } else {
-        result = sentence2;
+        result = y;
     }
 return result;
 }
 
-console.log(string());
+console.log(string(sentence1, sentence2));
